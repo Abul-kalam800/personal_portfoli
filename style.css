@@ -1,0 +1,477 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Big+Shoulders+Display:wght@100..900&family=Big+Shoulders+Text:wght@700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Deca:wght@700&family=Ms+Madi&family=Outfit:wght@600&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fcfbfb;
+    font-family: "Fira Sans", sans-serif;
+ 
+}
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Fira Sans", sans-serif;
+}
+p{
+    font-size: 1.2rem;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.dotted-hr{
+    border:dotted 6px white;
+    margin: 20px auto;
+    border-bottom: none;
+    width: 80px;
+
+
+}
+/* for all devise */
+[class*="col-"]{
+    float:left;
+    padding: 15px;
+
+}
+/* for mobail devise */
+ [class*="col-"]{
+    width: 100%;
+ }
+ .navbar{
+    background-color: #1c939e;
+    padding: 1% 7%;
+    text-align: center;
+    
+
+
+}
+.navbar h1{
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+}
+ .navbar h2{
+    font-size:  2rem;
+    text-align: center;
+    color: rgb(2, 2, 29);
+    font-family: "Fira Sans", sans-serif;
+   
+}
+
+.nav-manu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+
+}
+.nav-manu a{
+    background-color: #58a7ae;
+    border-radius: 10px;
+    margin: 7px 0px;
+    padding: 10px;
+    transition: .5s all;
+    font-family: "Fira Sans", sans-serif;
+
+}
+.nav-manu a:hover{
+    background-color: gray;
+}
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* nabvar css finished */
+/* profile css starts from here  */
+.profile{
+    padding: 6rem 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.profile-desc h1{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Ms Madi", cursive;
+    color: #cb7f0d;
+    padding: 1rem 0;
+}
+.profile-desc p{
+    color: gray;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+.html5{
+    font-size: 4rem;
+    color: orange;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    transform: rotate(45deg);
+    transition: 0.5s ease;
+}
+.css3{
+    font-size: 4rem;
+    color: blue;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    transform:rotate(-45deg);
+    transition: 0.5s ease;
+}
+.css3:hover, .html5:hover{
+   font-size: 5rem;
+}
+.cog{
+    font-size: 4rem;
+    color: rgb(75, 93, 78);
+    position: absolute;
+    top: 490px;
+    left: 30px;
+    animation-duration:3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: gear;
+
+
+    
+}
+@keyframes gear {
+    to{
+        transform: rotate(-0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.spnir{
+    font-size: 4rem;
+    color: blue;
+    position: absolute;
+    top: 470px;
+    right: 30px;
+    animation-duration:3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: spnir;
+
+    
+}
+@keyframes spnir {
+    to{
+        transform: rotate(-0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.snow{
+    font-size: 4rem;
+    color: rgb(70, 39, 133);
+    position: absolute;
+    top: 40px;
+    right: 180px;
+    animation-duration:3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: spnir;
+
+    
+}
+.profile::after{
+    content: '';
+    display: table;
+    clear: both ;
+}
+/* aboutme statrts here  */
+.about-me{
+    background-color: #58a7ae;
+    padding: 3% 7%;
+    color: white;
+    text-align: center;
+
+}
+.aboutme-img img{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 190px;
+    height: 200px;
+
+}
+.aboutme-desc p{
+    text-align: center;
+    margin: 1rem 0;
+
+}
+.aboutme-desc a{
+    font-size: 1.2rem;
+}
+.btn-cv{
+    border:none;
+    padding: 10px 15px;
+    margin: 1rem 0;
+    background-color: #042023;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor:pointer;
+
+}
+
+.about-me::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* profile css ends here  */
+
+/* experience start frohere  */
+
+.profesonal-experience{
+    padding: 1% 7%;
+    background-color: #042023;
+    
+
+}
+.card{
+    background-color: #8492dd;
+    border-radius: 10px;
+    height: 530px;
+    padding: 1rem;
+    transition: 0.5s;
+
+}
+.card:hover{
+    box-shadow: 5px 10px 20px rgb(0,0,0,0.7);
+}
+.card .card-title{
+    font-size: 1.3rem;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #1a8870;
+    color: #faf4f4;
+    width: 80%;
+
+}
+.card-desc{
+    font-size: 1rem;
+    padding: 2rem;
+    color: #f3e9e9e6;
+
+}
+.card-hr{
+    color: rgb(20, 19, 19);
+    border: 2px solid #1a8870;
+   
+}
+
+.skills .btn{
+    list-style: none;
+   margin: 30px 10px;
+   font-weight: bold;
+    position: relative;
+   
+}
+.skills .btn::before{
+    content: '';
+    position: absolute;
+    top:calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-color: rgba(77, 71, 159, 0.395);
+    border-radius: 100px;
+
+}
+.skills .btn::after{
+    content: '';
+    position: absolute;
+    top:calc(100% + 5px);
+    left: 0;
+    width: 10%;
+    height: 10px;
+    background-color: rgba(44, 33, 199, 0.715);
+    border-radius: 100px;
+
+    animation-duration:3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
+}
+.skills .btn.html::after{
+    animation-name: html;
+}
+@keyframes html{
+    to{
+        width: 90%;
+    }
+}
+.skills .btn.css::after{
+    animation-name: css;
+}
+@keyframes  css{
+    to{
+        width: 80%;
+    }
+}
+.skills .btn.js::after{
+    animation-name: js;
+}
+@keyframes js{
+    to{
+        width: 70%;
+    }
+}
+.skills .btn.bots::after{
+    animation-name: bots;
+}
+@keyframes bots{
+    to{
+        width: 90%;
+    }
+}
+.skills .btn.react::after{
+    animation-name: react;
+}
+@keyframes react{
+    to{
+        width: 60%;
+    }
+}
+.skills .btn.photoshop::after{
+    animation-name: photo;
+}
+@keyframes photo{
+    to{
+        width: 80%;
+    }
+}
+.skills .btn.word::after{
+    animation-name: word;
+}
+@keyframes word{
+    to{
+        width: 90%;
+    }
+}
+.skills .btn.excel::after{
+    animation-name: excel;
+}
+@keyframes excel{
+    to{
+        width: 80%;
+    }
+}
+
+.profesonal-experience::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* experience ends here  */
+/* contact section starats from here  */
+ .contact-section{
+    padding: 1% 7%;
+    background-color: #0c6168;
+    color: #fff;
+
+ }
+ .contact-me{
+    text-align: center;
+ }
+ .contact-me input,textarea{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 1rem 0;
+    border-radius: 5px;
+    resize: none;
+ }
+ .contact-me button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: #042023;
+    color: #fff;
+    cursor:pointer;
+ }
+ .contact-link{
+    text-align: center;
+}
+.media-container .btn{
+    border: none;
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    font-size: 24px;
+    margin: 10px;
+    background-color: #fff;
+    cursor:pointer;
+    transition: 0.5s ease;
+}
+.media-container .btn:hover{
+    background-color: gray;
+    color: #fff;
+}
+ .contact-section::after{
+    content: '';
+    display: table;
+    clear: both;
+ }
+/* contact section ends from here  */
+
+/* footer section css starts here  */
+.footer-section{
+    padding: 1% 7%;
+    background-color: #05191b;
+
+}
+.nab-link{
+    text-align: center;
+}
+.nab-link h2{
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+.footer-manu a{
+    display: block;
+    margin: 20px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.footer-manu a:hover{
+    color: rgb(33, 168, 213);
+}
+.copy{
+    font-size: 12px;
+    color: #fff;
+}
+.footer-section::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* footer section ends here  */
+

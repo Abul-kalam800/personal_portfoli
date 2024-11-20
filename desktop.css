@@ -1,0 +1,140 @@
+/* for-desktop */
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+/* navbar starts her */
+
+.navbar{
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    z-index: 99;
+}
+.nablogo{
+    text-align: left;
+}
+.nav-headeing{
+    text-align: right;
+
+}
+.nav-manu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-manu a{
+    padding: 5px 10px;
+    background-color: transparent;
+}
+/* navbar css end  */
+
+/* profile css starts  */
+
+.profile-desc h1{
+    font-size: 3rem;
+}
+.profile-desc P{
+    width: 50%;
+    margin: 0 auto;
+
+
+}
+.html5{
+    top: 140px;
+    left: 140px;
+
+}
+.css3{
+    top: 170px;
+    right: 160px;
+ 
+}
+.cog{
+    font-size: 6rem;
+    top: 300px;
+    left: 180px;
+    
+}
+.spnir{
+    font-size: 6rem;
+    color: rgb(220, 17, 173);
+    position: absolute;
+    top: 400px;
+    right: 230px;
+    
+}
+.snow{
+    font-size: 4rem;
+    color: blue;
+    position: absolute;
+    top: 190px;
+    right: 580px;
+    
+}
+/* profile css end here  */
+
+/* about me csss starts from here  */
+
+.aboutme-img{
+    margin-top: 100px;
+
+}
+.aboutme-desc p{
+    text-align: left;
+}
+.btn-cv{
+    text-align: left;
+}
+
+
+/* about me css ends here  */
+/* profesonal experienc */
+    .profesonal-experience{
+        margin: 0 auto;
+    }
+    .card .card-title{
+        width: 97%;
+    
+    }
+/* professonal experience css ends  */
+
+/* contact me section css starts here  */
+.contact-me button{
+    padding: 10px 60px;
+   
+ }
+ .contact-link{
+    position: relative;
+ }
+ .media-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem;
+    margin-top: 130px;
+ }
+/* contact me css ends here  */
+/* footer section css starts here  */
+ .footer-manu a{
+    display: inline;
+    margin:10px 14px;
+
+ }
+ .footer-manu{
+    display: flex;
+    justify-content: flex-start;
+ }
+ .copy{
+    text-align: right;
+ }
+/* footer section css ends here  */
